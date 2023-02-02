@@ -1,6 +1,3 @@
-const url = "https://www.icloud.com/mail/"
-// let apps = document.querySelector("app-grid-item")
-
 Array.from(document.getElementsByClassName("app-grid-item"))
     .forEach(function(element){
         element.addEventListener('click', function(e) {
@@ -8,7 +5,19 @@ Array.from(document.getElementsByClassName("app-grid-item"))
         })
     });
 
-// apps.addEventListener('click', function(e) {
-//     console.log(e.target)
-// })
+
+Array.from(document.getElementsByClassName("app-grid-item"))
+    .forEach(function(element){
+        element.addEventListener('mouseover', function(e) {
+            document.getElementById(e.currentTarget.id).classList.add("is-highlighted")
+        })
+    });
+
+Array.from(document.getElementsByClassName("app-grid-item"))
+    .forEach(function(element){
+        element.addEventListener('mouseout', function(e) {
+            document.getElementById(e.currentTarget.id).classList.remove("is-highlighted")
+        })
+    });
+
 
