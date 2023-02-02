@@ -1,7 +1,9 @@
 Array.from(document.getElementsByClassName("hover"))
     .forEach(function(element){
         element.addEventListener('click', function(e) {
-            window.open(`https://www.icloud.com/${e.currentTarget.id}`)
+            if(e.currentTarget.id === "iCloud"){
+                window.open(`https://www.icloud.com`)
+            } else { window.open(`https://www.icloud.com/${e.currentTarget.id}`) }
         })
     });
 

@@ -11,7 +11,7 @@
     box-sizing: border-box;
 }
 html{
-    height: 800px;
+    height: 500px;
     width: 325px;
     border-radius: 7px;
     margin: 0 auto;
@@ -24,6 +24,8 @@ body{
     height: 100%;
     width: 100%;
 
+    overflow-y: hidden;
+    overflow: hidden;
 }
 h1,
 h2,
