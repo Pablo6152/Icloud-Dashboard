@@ -5,7 +5,7 @@
     --text-color: #000000;
     --primary-accent-color: #007aff;
     --secondary-accent-color: #35c759;
-    --gray-color: rgba(200, 200, 200, 1);
+    --gray-color: rgb(235, 235, 235);
 }
 *{
     box-sizing: border-box;
@@ -83,7 +83,11 @@ a{
     border-radius: 14px;
 }
 .gray-border{
-    outline: gray 1px solid;
+    outline: var(--gray-color) 1px solid;
+    border-radius: 10px;
+}
+#notes > img{
+    border-radius: 14px;    
 }
 .app-grid-item-name{
     margin-top: 6px;
