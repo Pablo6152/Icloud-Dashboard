@@ -1,6 +1,6 @@
 {
     "name": "Icloud Dashboard",
-    "version": "0.5",
+    "version": "0.6",
     "icon": "/img/icon.png",
     "description": "Launch your Icloud Apps from the comfort of your chrome bar",
     "manifest_version": 3,
