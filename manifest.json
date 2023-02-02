@@ -4,6 +4,9 @@
     "description": "Launch your Icloud Apps from the comfort of your chrome bar",
     "manifest_version": 3,
     "author": "Pablo Cisneros",
+    "permissions": [
+        "tabs"
+      ],
     "action":{
         "default_popup": "index.html",
         "default_title": "Icloud Dashboard"

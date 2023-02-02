@@ -73,6 +73,9 @@ a{
     inline-size: 78px;
     padding: 12px;
     width: 78px;
+
+    background-color: var(--primary-color);
+    border: none;
 }
 .app-grid-item-name{
     margin-top: 6px;
