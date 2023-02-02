@@ -66,7 +66,8 @@ a{
 .app-wide-item{
     grid-column-start: 1;
     grid-column-end: 5;
-    padding: 5px;
+
+    align-self: center;
 }
 .app-title-item{
     font-size: 1.2rem;
@@ -80,6 +81,9 @@ a{
     width: 78px;
 
     border-radius: 14px;
+}
+.gray-border{
+    outline: gray 1px solid;
 }
 .app-grid-item-name{
     margin-top: 6px;
@@ -106,6 +110,8 @@ a{
 .icloud-menu-item{
     display: flex;
     align-items: center;
+
+    border-radius: 7px;
 }
 .symbol-icon{
     height: 24.6847px;
